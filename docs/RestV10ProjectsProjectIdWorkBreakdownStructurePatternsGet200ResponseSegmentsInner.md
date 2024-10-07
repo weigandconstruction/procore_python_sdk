@@ -1,0 +1,44 @@
+# RestV10ProjectsProjectIdWorkBreakdownStructurePatternsGet200ResponseSegmentsInner
+
+A work breakdown structure project segment
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**id** | **int** | ID | [optional] 
+**type** | **str** | The type of Wbs Segment. | [optional] 
+**name** | **str** | The i18n display name of the Wbs Segment. | [optional] 
+**position** | **int** | Position of the Wbs Segment according to the Project Wbs Pattern. | [optional] 
+**segment_items_count** | **int** | Number of items that belong to this segment | [optional] 
+**required** | **bool** | Whether this Wbs Segment is required. | [optional] 
+**delimiter** | **str** | The delimiter between this Wbs Segment and the subsequent Wbs Segment. | [optional] 
+**project_can_modify_origin_project** | **bool** | Whether project-specific Segment Items are able to be added to a Project. | [optional] 
+**project_can_delete_origin_company** | **bool** | Whether Segment Items inherited from the company-level are able to be deleted from a Project. | [optional] 
+**structure** | **str** | The Structure for this Wbs Segment. | [optional] 
+**selectable_tiers** | **bool** | Whether non-leaf Segment Items can be selected in the Budget Code picker. | [optional] 
+**is_included_in_project_pattern** | **bool** | Whether this Wbs Segment is included in the Project Wbs Pattern. | [optional] 
+**created_at** | **datetime** | Created at | [optional] 
+**updated_at** | **datetime** | Updated at | [optional] 
+**wbs_pattern_id** | **int** | ID of the associated WBS Pattern | [optional] 
+
+## Example
+
+```python
+from procore_sdk.models.rest_v10_projects_project_id_work_breakdown_structure_patterns_get200_response_segments_inner import RestV10ProjectsProjectIdWorkBreakdownStructurePatternsGet200ResponseSegmentsInner
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of RestV10ProjectsProjectIdWorkBreakdownStructurePatternsGet200ResponseSegmentsInner from a JSON string
+rest_v10_projects_project_id_work_breakdown_structure_patterns_get200_response_segments_inner_instance = RestV10ProjectsProjectIdWorkBreakdownStructurePatternsGet200ResponseSegmentsInner.from_json(json)
+# print the JSON string representation of the object
+print(RestV10ProjectsProjectIdWorkBreakdownStructurePatternsGet200ResponseSegmentsInner.to_json())
+
+# convert the object into a dict
+rest_v10_projects_project_id_work_breakdown_structure_patterns_get200_response_segments_inner_dict = rest_v10_projects_project_id_work_breakdown_structure_patterns_get200_response_segments_inner_instance.to_dict()
+# create an instance of RestV10ProjectsProjectIdWorkBreakdownStructurePatternsGet200ResponseSegmentsInner from a dict
+rest_v10_projects_project_id_work_breakdown_structure_patterns_get200_response_segments_inner_from_dict = RestV10ProjectsProjectIdWorkBreakdownStructurePatternsGet200ResponseSegmentsInner.from_dict(rest_v10_projects_project_id_work_breakdown_structure_patterns_get200_response_segments_inner_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

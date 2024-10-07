@@ -1,0 +1,33 @@
+# RestV11ProjectsProjectIdRecycleBinIncidentsWitnessStatementsGet200ResponseInnerCustomFields
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**custom_field_custom_field_string_definition_id** | [**RestV11ProjectsProjectIdRecycleBinIncidentsWitnessStatementsGet200ResponseInnerCustomFieldsCustomFieldCustomFieldStringDefinitionId**](RestV11ProjectsProjectIdRecycleBinIncidentsWitnessStatementsGet200ResponseInnerCustomFieldsCustomFieldCustomFieldStringDefinitionId.md) |  | [optional] 
+**custom_field_custom_field_decimal_definition_id** | [**RestV11ProjectsProjectIdRecycleBinIncidentsWitnessStatementsGet200ResponseInnerCustomFieldsCustomFieldCustomFieldDecimalDefinitionId**](RestV11ProjectsProjectIdRecycleBinIncidentsWitnessStatementsGet200ResponseInnerCustomFieldsCustomFieldCustomFieldDecimalDefinitionId.md) |  | [optional] 
+**custom_field_custom_field_boolean_definition_id** | [**RestV11ProjectsProjectIdRecycleBinIncidentsWitnessStatementsGet200ResponseInnerCustomFieldsCustomFieldCustomFieldBooleanDefinitionId**](RestV11ProjectsProjectIdRecycleBinIncidentsWitnessStatementsGet200ResponseInnerCustomFieldsCustomFieldCustomFieldBooleanDefinitionId.md) |  | [optional] 
+**custom_field_custom_field_lov_entry_definition_id** | [**RestV11ProjectsProjectIdRecycleBinIncidentsWitnessStatementsGet200ResponseInnerCustomFieldsCustomFieldCustomFieldLovEntryDefinitionId**](RestV11ProjectsProjectIdRecycleBinIncidentsWitnessStatementsGet200ResponseInnerCustomFieldsCustomFieldCustomFieldLovEntryDefinitionId.md) |  | [optional] 
+**custom_field_custom_field_lov_entries_definition_id** | [**RestV11ProjectsProjectIdRecycleBinIncidentsWitnessStatementsGet200ResponseInnerCustomFieldsCustomFieldCustomFieldLovEntriesDefinitionId**](RestV11ProjectsProjectIdRecycleBinIncidentsWitnessStatementsGet200ResponseInnerCustomFieldsCustomFieldCustomFieldLovEntriesDefinitionId.md) |  | [optional] 
+
+## Example
+
+```python
+from procore_sdk.models.rest_v11_projects_project_id_recycle_bin_incidents_witness_statements_get200_response_inner_custom_fields import RestV11ProjectsProjectIdRecycleBinIncidentsWitnessStatementsGet200ResponseInnerCustomFields
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of RestV11ProjectsProjectIdRecycleBinIncidentsWitnessStatementsGet200ResponseInnerCustomFields from a JSON string
+rest_v11_projects_project_id_recycle_bin_incidents_witness_statements_get200_response_inner_custom_fields_instance = RestV11ProjectsProjectIdRecycleBinIncidentsWitnessStatementsGet200ResponseInnerCustomFields.from_json(json)
+# print the JSON string representation of the object
+print(RestV11ProjectsProjectIdRecycleBinIncidentsWitnessStatementsGet200ResponseInnerCustomFields.to_json())
+
+# convert the object into a dict
+rest_v11_projects_project_id_recycle_bin_incidents_witness_statements_get200_response_inner_custom_fields_dict = rest_v11_projects_project_id_recycle_bin_incidents_witness_statements_get200_response_inner_custom_fields_instance.to_dict()
+# create an instance of RestV11ProjectsProjectIdRecycleBinIncidentsWitnessStatementsGet200ResponseInnerCustomFields from a dict
+rest_v11_projects_project_id_recycle_bin_incidents_witness_statements_get200_response_inner_custom_fields_from_dict = RestV11ProjectsProjectIdRecycleBinIncidentsWitnessStatementsGet200ResponseInnerCustomFields.from_dict(rest_v11_projects_project_id_recycle_bin_incidents_witness_statements_get200_response_inner_custom_fields_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

@@ -1,0 +1,57 @@
+# PunchItem4
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**description** | **str** | Description | [optional] 
+**due** | **date** | Due date | [optional] 
+**name** | **str** | Name | 
+**schedule_risk** | **str** | Assessed risk level of on-time completion | [optional] 
+**position** | **int** | Position | [optional] 
+**priority** | **str** | Punch item priority - &#39;low&#39;, &#39;medium&#39;, &#39;high&#39; | [optional] 
+**private** | **bool** | Privacy status | [optional] 
+**status** | **str** | Status - &#39;open&#39; or &#39;closed&#39; | [optional] 
+**date_initiated** | **date** | Date created | [optional] 
+**schedule_impact** | **str** | Schedule impact status - yes_known, yes_unknown, no_impact, tbd, n_a | [optional] 
+**schedule_impact_days** | **int** | Schedule impact value in days | [optional] 
+**reference** | **str** | Used to create a reference point between a punch item within Procore and a corresponding punch item outside of Procore | [optional] 
+**cost_impact** | **str** | Cost impact status - yes_known, yes_unknown, no_impact, tbd, n_a | [optional] 
+**cost_impact_amount** | **int** | Cost impact amount | [optional] 
+**trade_id** | **int** | Trade ID | [optional] 
+**punch_item_type_id** | **int** | Punch Item Type ID | [optional] 
+**login_information_ids** | **List[int]** | Array of the User IDs of the Punch Item Assignments | [optional] 
+**distribution_member_ids** | **List[int]** | Array of the User IDs of the Distribution Members | [optional] 
+**punch_item_manager_id** | **int** | Punch Item Manager ID | [optional] 
+**final_approver_id** | **int** | Punch Item Final Approver ID | [optional] 
+**location_id** | **int** | The ID of the Location of the Punch Item. &#x60;location_id&#x60; takes precedence over &#x60;mt_location&#x60; | [optional] 
+**mt_location** | **List[str]** | Use this for creating a new multi-tier or single-tier Location. This will be ignored if &#x60;location_id&#x60; is provided. | [optional] 
+**workflow_status** | **str** | Workflow status of the Punch Item. These are more granular statuses in the punch item workflow. | [optional] 
+**drawing_revision_ids** | **List[int]** | Drawing Revisions to attach to the response | [optional] 
+**file_version_ids** | **List[int]** | File Versions to attach to the response | [optional] 
+**form_ids** | **List[int]** | Forms to attach to the response | [optional] 
+**image_ids** | **List[int]** | Images to attach to the response | [optional] 
+**upload_ids** | **List[str]** | Uploads to attach to the response | [optional] 
+**custom_field_custom_field_definition_id** | [**WorkOrderContractCustomFieldCustomFieldDefinitionId**](WorkOrderContractCustomFieldCustomFieldDefinitionId.md) |  | [optional] 
+
+## Example
+
+```python
+from procore_sdk.models.punch_item4 import PunchItem4
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of PunchItem4 from a JSON string
+punch_item4_instance = PunchItem4.from_json(json)
+# print the JSON string representation of the object
+print(PunchItem4.to_json())
+
+# convert the object into a dict
+punch_item4_dict = punch_item4_instance.to_dict()
+# create an instance of PunchItem4 from a dict
+punch_item4_from_dict = PunchItem4.from_dict(punch_item4_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
